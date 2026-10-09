@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "aotmod",
+  "version": "${version}",
+  "name": "ODM Gear & Titans",
+  "description": "Attack on Titan style ODM gear (grappling hooks, gas boost), blades and 15m titans.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.aotmod.AotMod"],
+    "client": ["com.aotmod.AotModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
