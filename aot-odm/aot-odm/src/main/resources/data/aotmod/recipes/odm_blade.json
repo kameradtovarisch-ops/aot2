@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": ["I", "I", "C"],
-  "key": {
-    "I": { "item": "minecraft:iron_ingot" },
-    "C": { "item": "minecraft:copper_ingot" }
-  },
-  "result": { "item": "aotmod:odm_blade", "count": 1 }
-}
